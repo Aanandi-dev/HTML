@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title>Complete HTML form Example</title>
+    </head>
+    <body>
+        <form>
+         
+            <!--Personal Information-->
+            <h1>Complete HTML form Example</h1>
+            <fieldset>
+            <legend>Personal Information : </legend>   
+            <label>Enter your full name : </label>
+            <input type="text">
+            <br/>
+            <br/>
+            <label>Enter you email : </label>
+            <input type="email">
+            <br/>
+            <br/>
+            <label>Enter your password : </label>
+            <input type="password">
+            <br/>
+            <br/>
+            <label>Enter your Age : </label>
+            <input type="Age">
+            </fieldset>
+            <br/>
+
+            <!--Contact details-->
+            <fieldset>
+                <legend>Contact details : </legend>
+                <label>Enter your phone number : </label>
+                <input type="number">
+                <br/>
+                <br/>
+                <label>Enter your address : </label>
+                <textarea></textarea>
+            </fieldset>
+            <br/>
+
+            <!--Preference-->
+            <fieldset>
+                <legend>Preference : </legend>
+               <label>Prefered Contact Method : </label>
+               <br>
+               <input type="radio"><label>Email</label>
+               <input type="radio"><label>Phone</label>
+               <br/>
+               <br/>
+               <label>Hobies : </label>
+               <br/>
+               <input type="radio" name="hobies" value="reading"><label>reading</label>
+               <input type="radio" name="hobies" value="music"><label>music</label>
+               <input type="radio" name="hobies" value="travelling"><label>travelling</label>
+            </fieldset>
+            <br/>
+
+            <!--Additional details-->
+            <fieldset>
+                <legend>Additional details : </legend>
+                <label>Country : </label>
+                <select>
+                    <option>India</option>
+                    <option>America</option>
+                    <option>China</option>
+                    <option>Russia</option>
+                </select>
+                <br/>
+                <br/>
+                <label>Upload Resume</label>
+                <input type="file">
+                <br/>
+                <br/>
+                <label>Date of birth : </label>
+                <input type="date">
+                <br/>
+                <br/>
+                <label>Favaurate color : </label>
+                <input type="color">
+                <select>
+                    <option>Red</option>
+                    <option>Blue</option>
+                    <option>Grey</option>
+                    <option>Black</option>
+                </select>
+                <br/>
+                <br/>
+                <label>Satisfaction Level : </label>
+                 <input type="range">
+            </fieldset>
+            <br/>
+
+            <!--Submit details-->
+            <fieldset>
+             <legend>Submit your details : </legend>  
+             <input type="submit" value="submit"> 
+             <input type="reset" value="reset">
+            </fieldset>
+
+        </form>
+    </body>
+</html>
