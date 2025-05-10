@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Complete form tag in HTML</title>
+    </head>
+    <body>
+        <form>
+
+            <!--Personal section-->
+         <fieldset>
+            <legend>Personal details</legend>
+            <label>Enter your name : </label>
+            <input type="text">
+            <br/>
+            <br/>
+            <label>Enter your email : </label>
+            <input type="email">
+            <br/>
+            <br/>
+            <label>Enter your date of birth</label>
+            <input type="date">
+            <br/>
+            <br/>
+            </label>
+         </fieldset>
+
+         <!--Contact section-->
+         <fieldset>
+            <legend>Contact details</legend>
+            <label>Enter your mobile number</label>
+            <input type="number">
+            <br/>
+            <br/>
+            <label>Enter your address : </label>
+            <textarea></textarea>
+         </fieldset>
+
+         <!--Option section-->
+         <fieldset>
+            <legend>Other details</legend>
+            <label>Choose your system</label>
+            <select>
+                <!--Group one-->
+                <optgroup label="Operating system">
+                <option>Windows</option>
+                <option>Linux</option>
+                <option>Mac</option>
+                </optgroup>
+                <!--Group two-->
+                <optgroup label="Mobile OS">
+                    <option>Andriod</option>
+                    <option>IOS</option>
+                </optgroup>
+            </select>
+         </fieldset>
+
+         <!--Submit section-->
+         <fieldset>
+            <legend>Submit</legend>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+         </fieldset>
+        </form>
+    </body>
+</html>
